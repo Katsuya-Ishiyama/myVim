@@ -1,0 +1,2 @@
+# myVim
+Repository for .vimrc
