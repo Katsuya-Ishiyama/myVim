@@ -84,7 +84,7 @@ set wildmenu wildmode=list:longest,full
 
 set history=50
 
-set clipboard+=unnamed
+set clipboard=unnamedplus
 
 let mapleader = "\<Space>"
 
