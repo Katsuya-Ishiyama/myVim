@@ -84,6 +84,8 @@ set wildmenu wildmode=list:longest,full
 
 set history=50
 
+set clipboard+=unnamed
+
 let mapleader = "\<Space>"
 
 " Increment or Decrement number
