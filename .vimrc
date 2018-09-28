@@ -39,6 +39,7 @@ Plugin 'https://github.com/python-mode/python-mode.git'
 Plugin 'https://github.com/davidhalter/jedi-vim'
 Plugin 'derekwyatt/vim-scala'
 Plugin 'gtags.vim'
+Plugin 'tomtom/tcomment_vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
