@@ -38,6 +38,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'https://github.com/python-mode/python-mode.git'
 Plugin 'https://github.com/davidhalter/jedi-vim'
 Plugin 'derekwyatt/vim-scala'
+Plugin 'gtags.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -101,3 +102,8 @@ map <C-n> :NERDTreeToggle<CR>
 
 let g:airline_theme='hybrid'
 
+" gtags
+map <C-h> :Gtags -f %<CR>
+map <C-j> :GtagsCursor<CR>
+map <C-n> :cn<CR>
+map <C-p> :cp<CR>
